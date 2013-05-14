@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startService"
+        android:text="@string/start_service" />
+
+    <Button
+        android:id="@+id/stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopService"
+        android:text="@string/stop_service" />
+
+    <Button
+        android:id="@+id/bound_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="boundService"
+        android:text="@string/bound_service" />
+
+    <Button
+        android:id="@+id/unbound_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="unboundService"
+        android:text="@string/unbound_service" />
+
+</LinearLayout>
